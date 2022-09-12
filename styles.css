@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25rem;
+    border: black solid 1px;
+}
+
+.flex-child {
+
+}
